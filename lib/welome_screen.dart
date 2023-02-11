@@ -29,7 +29,7 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffE9EDF0),
+      backgroundColor: const Color(0xffE9EDF0),
       body: Column(
         children: [
           Obx(
